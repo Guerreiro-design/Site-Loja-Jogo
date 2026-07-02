@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    
+    background-color:#193243;
+}
+.header{
+    position: sticky;
+    display: inline-block;
+    width: 100%;
+}
+.Carrinho>a>img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 36px;
+}
+.Ulheader>li{
+    vertical-align: middle;
+    display: inline-block;
+}
+.Logo{
+    margin-right: 15%;
+}
+.Loja, .Sobre, .Suporte{
+    margin-right: 16px;
+    
+}
+.Loja>a, .Sobre>a, .Suporte>a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.Instale>a{
+    margin-right: 36px;
+   margin-left:90px;
+   text-decoration: none;
+    color: black;
+}
+.Login>a{
+    margin-bottom: 45px;
+    margin-left:80px;
+    text-decoration: none;
+    color: black;
+}
+.Categorias>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+.Busque{
+    margin-left: 50px;
+}
+.Cinza{
+    background-color: grey;
+}
+.Destaque{
+    color: white;
+    margin-top:80px;
+    text-align: center;
+}
+.Centro{
+    text-align: center;
+}
+.Centro img{
+    line-height: 100%;
+    vertical-align: middle;
+}
+.h1EmbaixoD{
+    color: white;
+    margin-top: 95px;
+}
+.Section1{
+    text-align: center;
+    height: 500px;
+    display: grid;
+    grid-template-areas: "SC2 CS2"
+                        "TF2 Braw"
+}
+.SC2{
+    grid-area: SC2;
+    margin-top: 50px;
+}
+.CS2{
+    margin-top: 50px;
+    grid-area: CS2;
+}
+.TF2{
+    margin-top: 50px;
+    grid-area: TF2;
+}
+.Brawlhalla{
+    margin-top: 50px;
+    grid-area: Braw;
+}

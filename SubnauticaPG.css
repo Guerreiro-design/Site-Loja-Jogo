@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color:#193243;
+}
+.header{
+    position: sticky;
+    display: inline-block;
+    width: 100%;
+}
+.Carrinho>a>img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 36px;
+}
+.Ulheader>li{
+    vertical-align: middle;
+    display: inline-block;
+}
+.Logo{
+    margin-right: 15%;
+}
+.Loja, .Sobre, .Suporte{
+    margin-right: 16px;
+    
+}
+.Loja>a, .Sobre>a, .Suporte>a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.Instale>a{
+    margin-right: 36px;
+   margin-left:90px;
+   text-decoration: none;
+    color: black;
+}
+.Login>a{
+    margin-bottom: 45px;
+    margin-left:80px;
+    text-decoration: none;
+    color: black;
+}
+.Categorias>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+.Busque{
+    margin-left: 50px;
+}
+.Cinza{
+    background-color: grey;
+}
+.Main1{
+    display: grid;
+      grid-template-areas: "Inicio LogoSubnautica"
+                        "MultPlayerSub2 Descrição"
+                                        "Comprar"
+                                        "Comprar2";
+                                        
+    margin-left: 10%; 
+    font-size: 20px;                              
+}
+.Inicio{
+    grid-area: Inicio;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.h1Inicio{
+    color: white;
+}
+.LogoSubnautica{
+    grid-area: LogoSubnautica;
+    margin-top: 50px;
+    height: 251px;
+}
+.MultPlayerSub2{
+    grid-area: MultPlayerSub2;
+    margin-top: 50px;
+}
+.Descrição{
+    color: white;
+    grid-area: Descrição;
+    background-color: #0F151D;
+     width: 80%;
+}
+.DT{
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+.SpanDT{
+    margin-top: px;
+    margin-left: 10px;
+}
+.DD{
+    margin-top: 23px;
+}
+.Comprar{
+    margin-top: 250px;
+    grid-area: Comprar;
+    color: white;
+}
+.Comprar>p{
+  font-size: 40px;
+}
+.Comprar2{
+    color: white;
+    grid-area: Comprar2;
+    margin-top: 350px;
+}
+#Mais{
+   width: 16px;
+}
+

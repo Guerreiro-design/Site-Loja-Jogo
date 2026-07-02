@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color:#193243;
+}
+.header{
+    position: sticky;
+    display: inline-block;
+    width: 100%;
+}
+.Carrinho>a>img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 36px;
+}
+.Ulheader>li{
+    vertical-align: middle;
+    display: inline-block;
+}
+.Logo{
+    margin-right: 15%;
+}
+.Loja, .Sobre, .Suporte{
+    margin-right: 16px;
+    
+}
+.Loja>a, .Sobre>a, .Suporte>a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.Instale>a{
+    margin-right: 36px;
+   margin-left:90px;
+   text-decoration: none;
+    color: black;
+}
+.Login>a{
+    margin-bottom: 45px;
+    margin-left:80px;
+    text-decoration: none;
+    color: black;
+}
+.Categorias>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+.Busque{
+    margin-left: 50px;
+}
+.Cinza{
+    background-color: grey;
+}
+.Destaque{
+    color: white;
+    margin-top:80px;
+    text-align: center;
+}
+.Main1{
+    display: grid;
+    grid-template-areas: "Logo TXT"
+                    "BattleNet RockstarGames"
+                    "EpicGames Sega";
+                    text-align: center;
+                    color: white;
+    justify-content: center;
+    padding: 3%;
+}
+
+.Main1 div{
+    padding: 12%;
+}
+.Logo{ 
+    grid-area: Logo;
+}
+.TXT{
+    grid-area: TXT;
+}
+.BattleNet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    grid-area: BattleNet;
+}
+.RockstarGames{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-area: RockstarGames;
+}
+.EpicGames{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-area: EpicGames;
+}
+.Sega{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    grid-area: Sega;
+}
+.Difisoria{
+    width: 100;
+}
+.TXT2{
+    margin-top: 50px;
+    color: white;
+text-align: center;
+}
+.TXT3{
+    margin-top: 50px;
+    color: white;
+ text-align: center;
+}
+.Span1{
+    margin-left: 50px;
+    margin-right: 50px;   
+}
+.Span2{
+    margin-right: 50px;
+}

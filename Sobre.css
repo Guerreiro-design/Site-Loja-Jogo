@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     color: white;
+     font-family: 'Inter', sans-serif;
+}
+body{
+    background-color:#193243;
+}
+.header{
+    position: sticky;
+    display: inline-block;
+    width: 100%;
+}
+.Carrinho>a>img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 36px;
+}
+.Ulheader>li{
+    vertical-align: middle;
+    display: inline-block;
+}
+.Logo{
+    margin-right: 15%;
+}
+.Loja, .Sobre, .Suporte{
+    margin-right: 16px;
+    
+}
+.Loja>a, .Sobre>a, .Suporte>a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.Instale>a{
+    margin-right: 36px;
+   margin-left:90px;
+   text-decoration: none;
+    color: black;
+}
+.Login>a{
+    margin-bottom: 45px;
+    margin-left:80px;
+    text-decoration: none;
+    color: black;
+}
+.Categorias>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+.Busque{
+    margin-left: 50px;
+}
+.Cinza{
+    background-color: grey;
+}
+.Main1{
+    display: grid;
+    grid-template-areas:"Logo2  NomeLoja"
+                         "Descrição Img2";
+    text-align: center;
+}
+.Logo2{
+    grid-area: Logo2;
+}
+.Logo2>img{
+    margin-top: 50px;
+    height: 121px;
+    width: 100x;
+}
+.NomeLoja{
+    grid-area: NomeLoja;
+    margin-top: 80px;
+    font-size: 35px;
+}
+.Descriçao{
+    grid-area: Descrição;
+    font-size: 20px;
+}
+.Img2{
+    grid-area: Img2;
+}.Img2>img{
+    height:309px ;
+    width: 309px;
+}
+.TXTBox{
+    background-color: #0F151D;
+    width: 60%;
+    margin-left: 20%;
+}
